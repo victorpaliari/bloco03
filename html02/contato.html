@@ -3,20 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
     <title>Victor Paliari</title>
-    <div align="">
+    <div class="">
         <img style="width: 200px; border-radius: 200px" src="eu.jpg" alt="victor-paliari-perfil">
-    <h1>Oi, eu sou o Victor, </h1>
-    <h3>Desenvolvedor .NET Full Stack Junior</h3>
+    
 </head>
 <body>
+
+    <header class="nome">
+        <h1> Victor Oliveira Paliari </h1>
+        <h3>Desenvolvedor .NET Full Stack Junior</h3>
+    </header>
     <br>
     <ol> 
         <li>Atualmente estudando REACT, NODE.JS e TAILWIND CSS;</li> 
         <li>Colaborando com Projeto Integrador - Generation Brasil;</li>     
-        <li>Contruindo o Frontend do BlogPessoal;</li>   
+        <li>Construindo o Frontend do projeto Blog Pessoal;</li>   
     </ol>
     <br> 
+    <button onclick="ola()">Para acabar com a zika, aperte esse botão.</button>
+    <br>
+    <br>
+    <form>
+        <label for="nome">Nome:</label> <br>
+        <input type="text" id="nome" onkeyup="validarNome()">
+        <div id="txtNome"></div>
+        <br>
+        <label for="email">E-mail:</label> <br>
+        <input type="email" id="email" onkeyup="validarEmail()" >
+        <div id="txtEmail"></div>
+        <br>
+        <label for="assunto">Assunto:</label> <br>
+        <textarea onkeyup="validarAssunto()" id="assunto" cols="60" rows="5"></textarea>
+        <div id="txtAssunto"></div>
+        <br>
+        <button onclick="enviar()">Enviar</button>
+    </form>
 
         <div>
         <a href="https://github.com/victorpaliari" </a> <h2>Acesse meu github</h2> 
@@ -43,6 +66,6 @@
   <img alt="SQL" title="SQL" height="30" width="30" src="https://cyclr.com/wp-content/uploads/2022/03/ext-550.png"/>
   <img alt="Git" title="Git" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
 </div>
-
+<script src="script/script.js"></script>
 </body>
 </html>

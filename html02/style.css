@@ -107,6 +107,14 @@ body{
     margin: 40px;
 }
 
+.nome {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
 
 
 
