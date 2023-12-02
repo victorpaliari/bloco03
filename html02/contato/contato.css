@@ -45,7 +45,7 @@ body{
     align-items: center;
 }
 
-button {
+button, .subir {
     padding: 10px;
     border-radius: 10px;
     background-color: black;
@@ -54,4 +54,6 @@ button {
 button:hover {
     background-color: orangered;
 }
+
+
 
